@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/build",
+  "command": "D:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\workermanager.dir\\source\\system.cpp.obj -c C:\\Users\\WeiYao\\Nutstore\\1\\CppCode\\WorkerMangeSystem\\source\\system.cpp",
+  "file": "C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/source/system.cpp",
+  "output": "CMakeFiles/workermanager.dir/source/system.cpp.obj"
+},
+{
+  "directory": "C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/build",
+  "command": "D:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\workermanager.dir\\source\\workerManager.cpp.obj -c C:\\Users\\WeiYao\\Nutstore\\1\\CppCode\\WorkerMangeSystem\\source\\workerManager.cpp",
+  "file": "C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/source/workerManager.cpp",
+  "output": "CMakeFiles/workermanager.dir/source/workerManager.cpp.obj"
+}
+]

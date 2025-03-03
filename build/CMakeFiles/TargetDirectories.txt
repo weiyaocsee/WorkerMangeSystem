@@ -1,0 +1,3 @@
+C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/build/CMakeFiles/workermanager.dir
+C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/build/CMakeFiles/edit_cache.dir
+C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/build/CMakeFiles/rebuild_cache.dir
