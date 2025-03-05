@@ -116,4 +116,13 @@ CMakeFiles/workermanager.dir/source/workerManager.cpp.obj: \
  D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
  D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
  D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
- D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc
+ D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+ D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
+ D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
+ D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+ D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+ D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
+ C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\worker.h \
+ C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\employee.h \
+ C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\manager.h \
+ C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\boss.h

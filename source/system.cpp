@@ -9,18 +9,18 @@ int main()
 {
     WorkerManager wm;
 
-    Worker * worker = NULL;
-    worker = new Employee(1, "张三", 1);
-    worker->showInfo();
-    delete worker;
+    // Worker * worker = NULL;
+    // worker = new Employee(1, "张三", 1);
+    // worker->showInfo();
+    // delete worker;
 
-    worker = new Manager(1, "张四", 1);
-    worker->showInfo();
-    delete worker;
+    // worker = new Manager(1, "张四", 1);
+    // worker->showInfo();
+    // delete worker;
 
-    worker = new Boss(1, "张五", 1);
-    worker->showInfo();
-    delete worker;
+    // worker = new Boss(1, "张五", 1);
+    // worker->showInfo();
+    // delete worker;
 
 
     int choice = 0;
@@ -37,6 +37,7 @@ int main()
         wm.exitSystem();
             break;
         case 1:
+        wm.addEmp();
             break;
         case 2:
             break;

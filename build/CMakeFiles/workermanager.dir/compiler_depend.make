@@ -377,6 +377,7 @@ CMakeFiles/workermanager.dir/source/system.cpp.obj: C:/Users/WeiYao/Nutstore/1/C
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h \
+  D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h \
@@ -384,6 +385,7 @@ CMakeFiles/workermanager.dir/source/system.cpp.obj: C:/Users/WeiYao/Nutstore/1/C
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
+  D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
@@ -430,6 +432,7 @@ CMakeFiles/workermanager.dir/source/system.cpp.obj: C:/Users/WeiYao/Nutstore/1/C
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
+  D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
@@ -445,8 +448,10 @@ CMakeFiles/workermanager.dir/source/system.cpp.obj: C:/Users/WeiYao/Nutstore/1/C
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
@@ -485,6 +490,10 @@ CMakeFiles/workermanager.dir/source/system.cpp.obj: C:/Users/WeiYao/Nutstore/1/C
   D:/MinGW/x86_64-w64-mingw32/include/wctype.h
 
 CMakeFiles/workermanager.dir/source/workerManager.cpp.obj: C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/source/workerManager.cpp \
+  C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/source/boss.h \
+  C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/source/employee.h \
+  C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/source/manager.h \
+  C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/source/worker.h \
   C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/source/workerManager.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
@@ -496,6 +505,7 @@ CMakeFiles/workermanager.dir/source/workerManager.cpp.obj: C:/Users/WeiYao/Nutst
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h \
+  D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h \
@@ -503,6 +513,7 @@ CMakeFiles/workermanager.dir/source/workerManager.cpp.obj: C:/Users/WeiYao/Nutst
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
+  D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
@@ -549,6 +560,7 @@ CMakeFiles/workermanager.dir/source/workerManager.cpp.obj: C:/Users/WeiYao/Nutst
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
+  D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
@@ -564,8 +576,10 @@ CMakeFiles/workermanager.dir/source/workerManager.cpp.obj: C:/Users/WeiYao/Nutst
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
   D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
@@ -611,6 +625,8 @@ D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h:
 C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/source/boss.cpp:
 
 D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h:
+
+D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h:
 
 D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h:
 
@@ -725,6 +741,8 @@ D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h:
 D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h:
 
 D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h:
+
+D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h:
 
 D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception:
 
@@ -853,5 +871,11 @@ C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/source/manager.h:
 C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/source/system.cpp:
 
 C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/source/workerManager.h:
+
+D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc:
+
+D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream:
+
+D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h:
 
 C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/source/workerManager.cpp:
