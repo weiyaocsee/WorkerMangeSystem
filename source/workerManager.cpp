@@ -6,8 +6,100 @@
 
 WorkerManager::WorkerManager()
 {
-    this->m_EmpNum = 0;
-    this->m_EmpArray = NULL;
+    ifstream ifs;
+    ifs.open(FILENAME, ios::in);
+
+    char ch;
+    ifs >> ch;
+    if(!ifs.is_open())
+    {
+        cout << "文件不存在！" << endl;
+        this->m_EmpNum = 0;
+        this->m_EmpArray = NULL;
+        ifs.close();
+        this->m_isFileEmpty = true;
+        return;
+    }
+
+    else if(ifs.eof())
+    {
+        cout << "文件为空！" << endl;
+        this->m_EmpNum = 0;
+        this->m_EmpArray = NULL;
+        ifs.close();
+        m_isFileEmpty = true;
+        return;
+    }
+    else{
+        this->m_isFileEmpty = false;
+        this->m_EmpNum = this->get_EmpNum();
+        cout << this->m_EmpNum << endl;
+        this->m_EmpArray = new Worker*[this->m_EmpNum];
+        this->init_Emp();
+        for(int i = 0; i < m_EmpNum; i++)
+        {
+            cout << this->m_EmpArray[i]->m_Name << " ";
+            cout << this->m_EmpArray[i]->m_ID << " ";
+            cout << this->m_EmpArray[i]->m_DeptID << endl;
+        }
+
+    }
+
+    
+
+}
+
+void WorkerManager::init_Emp()
+{
+    ifstream ifs;
+    ifs.open(FILENAME, ios::in);
+    int num = 0;
+    int ID;
+    string name;
+    int dID;
+    int index = 0;
+    
+    while(ifs >> ID && ifs >> name && ifs >> dID)
+    {
+        if(dID == 1)
+        {
+            Worker* worker = new Employee(ID, name, dID);
+            this->m_EmpArray[index] = worker;
+        }
+        else if(dID == 2)
+        {
+            Worker* worker = new Manager(ID, name, dID);
+            this->m_EmpArray[index] = worker;
+        }
+        else if(dID == 3)
+        {
+            Worker* worker = new Boss(ID, name, dID);
+            this->m_EmpArray[index] = worker;
+        }
+
+        index++;
+    }
+    ifs.close();
+}
+
+int WorkerManager::get_EmpNum()
+{
+    ifstream ifs;
+    ifs.open(FILENAME, ios::in);
+    int num = 0;
+    int ID;
+    string name;
+    int dID;
+    
+    while(ifs >> ID && ifs >> name && ifs >> dID)
+    {
+        num++;
+    }
+
+    ifs.close();
+
+    return num;
+
 }
 
 WorkerManager::~WorkerManager()
@@ -100,6 +192,7 @@ void WorkerManager::addEmp()
         this->m_EmpNum = newsize;
 
         cout << "成功添加" << addNum << "名新职工"<< endl;
+        this->m_isFileEmpty = false;
         this->save();
     }
     else{
@@ -107,6 +200,25 @@ void WorkerManager::addEmp()
     }
     system("pause");
     system("cls");
+}
+
+void WorkerManager::show_Emp()
+{
+    if(this->m_isFileEmpty)
+    {
+        cout << "文件不存在或记录为空！" << endl;
+    }
+    else
+    {
+        for (int i = 0; i < this->m_EmpNum; i++)
+        {
+            this->m_EmpArray[i]->showInfo();
+        }
+    }
+
+    system("pause");
+    system("cls");
+
 }
 
 void WorkerManager::save()
@@ -125,4 +237,126 @@ void WorkerManager::save()
 
     ofs.close();
 
+}
+
+int WorkerManager::m_isExist(int id)
+{
+    for (int i = 0; i < this->m_EmpNum; i++)
+    {
+        if(id == this->m_EmpArray[i]->m_ID)
+        {
+            return i;
+        }
+    }
+
+    return -1;
+}
+
+// void WorkerManager::Delete_Emp()
+// {
+//     int del_id;
+//     cout << "请输入要删除的用户ID:" << endl;
+//     cin >> del_id;
+//     for (int i = 0; i < this->m_EmpNum; i++)
+//     {
+//         if(del_id == this->m_EmpArray[i]->m_ID)
+//         {
+//             for (int j = i; j < this->m_EmpNum - 1; j++)
+//             {
+//                 this->m_EmpArray[j] = this->m_EmpArray[j+1];
+//             }
+//             this->m_EmpNum--;
+//             this->save();
+//             cout << "删除成功！" << endl;
+//             system("pause");
+//             system("cls");
+//             return;
+//         }
+//     }
+//     cout << "该用户不存在！" << endl;
+//     system("pause");
+//     system("cls");
+//     return;
+// }
+
+void WorkerManager::Delete_Emp()
+{
+    int del_id;
+    cout << "请输入要删除的用户ID:" << endl;
+    cin >> del_id;
+    int index = m_isExist(del_id);
+    if(index != -1)
+    {
+            for (int j = index; j < this->m_EmpNum - 1; j++)
+            {
+                this->m_EmpArray[j] = this->m_EmpArray[j+1];
+            }
+            this->m_EmpNum--;
+            this->save();
+            cout << "删除成功！" << endl;
+            system("pause");
+            system("cls");
+            return;
+    }
+    
+    cout << "该用户不存在！" << endl;
+    system("pause");
+    system("cls");
+    return;
+}
+
+void WorkerManager::Modify_Emp()
+{
+    if(this->m_isFileEmpty)
+    {
+        cout << "文件不存在或记录为空！" << endl;
+    }
+    else{
+        int mod_ID;
+        int mod_index;
+        cout << "请输入要修改的用户ID" << endl;
+        cin >> mod_ID;
+        mod_index = this->m_isExist(mod_ID);
+        if(mod_index != -1)
+        {
+            int newID = 0;
+            string newName = "";
+            int newDeptID = 0;
+            cout << "查到： " << mod_ID << "号职工，请输入新职工号： " << endl;
+            cin >> newID;
+            cout << "请输入新姓名： " << endl;
+            cin >> newName;
+            cout << "请输入岗位： " << endl;
+            cout << "1、普通职工" << endl;
+            cout << "2、经理" << endl;
+            cout << "3、老板" << endl;
+            cin >> newDeptID;
+            delete this->m_EmpArray[mod_index];
+            Worker*worker = NULL;
+            switch (newDeptID)
+            {
+            case 1:
+                m_EmpArray[mod_index] = new Employee(newID,newName,newDeptID);
+                break;
+            case 2:
+                m_EmpArray[mod_index] = new Manager(newID,newName,newDeptID);
+                break;
+            case 3:
+                m_EmpArray[mod_index] = new Boss(newID,newName,newDeptID);
+                break;
+            default:
+                break;
+            }
+
+            cout << "修改成功！" << endl;
+            this->save();
+
+        }
+        else
+        {
+            cout << "修改失败，查无此人！" << endl;
+        }     
+    }
+    system("pause");
+    system("cls");
 }

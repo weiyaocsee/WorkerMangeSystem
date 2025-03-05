@@ -40,10 +40,13 @@ int main()
         wm.addEmp();
             break;
         case 2:
+        wm.show_Emp();
             break;
         case 3:
+        wm.Delete_Emp();
             break;      
-        case 4:
+        case 4: 
+        wm.Modify_Emp();
             break;
         case 5:
             break;

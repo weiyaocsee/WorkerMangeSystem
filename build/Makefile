@@ -176,29 +176,29 @@ source/employee.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\workermanager.dir\build.make CMakeFiles/workermanager.dir/source/employee.cpp.s
 .PHONY : source/employee.cpp.s
 
-source/mananger.obj: source/mananger.cpp.obj
-.PHONY : source/mananger.obj
+source/manager.obj: source/manager.cpp.obj
+.PHONY : source/manager.obj
 
 # target to build an object file
-source/mananger.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\workermanager.dir\build.make CMakeFiles/workermanager.dir/source/mananger.cpp.obj
-.PHONY : source/mananger.cpp.obj
+source/manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\workermanager.dir\build.make CMakeFiles/workermanager.dir/source/manager.cpp.obj
+.PHONY : source/manager.cpp.obj
 
-source/mananger.i: source/mananger.cpp.i
-.PHONY : source/mananger.i
+source/manager.i: source/manager.cpp.i
+.PHONY : source/manager.i
 
 # target to preprocess a source file
-source/mananger.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\workermanager.dir\build.make CMakeFiles/workermanager.dir/source/mananger.cpp.i
-.PHONY : source/mananger.cpp.i
+source/manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\workermanager.dir\build.make CMakeFiles/workermanager.dir/source/manager.cpp.i
+.PHONY : source/manager.cpp.i
 
-source/mananger.s: source/mananger.cpp.s
-.PHONY : source/mananger.s
+source/manager.s: source/manager.cpp.s
+.PHONY : source/manager.s
 
 # target to generate assembly for a file
-source/mananger.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\workermanager.dir\build.make CMakeFiles/workermanager.dir/source/mananger.cpp.s
-.PHONY : source/mananger.cpp.s
+source/manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\workermanager.dir\build.make CMakeFiles/workermanager.dir/source/manager.cpp.s
+.PHONY : source/manager.cpp.s
 
 source/system.obj: source/system.cpp.obj
 .PHONY : source/system.obj
@@ -263,9 +263,9 @@ help:
 	@echo ... source/employee.obj
 	@echo ... source/employee.i
 	@echo ... source/employee.s
-	@echo ... source/mananger.obj
-	@echo ... source/mananger.i
-	@echo ... source/mananger.s
+	@echo ... source/manager.obj
+	@echo ... source/manager.i
+	@echo ... source/manager.s
 	@echo ... source/system.obj
 	@echo ... source/system.i
 	@echo ... source/system.s

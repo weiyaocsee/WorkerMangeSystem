@@ -13,9 +13,9 @@
 },
 {
   "directory": "C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/build",
-  "command": "D:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\workermanager.dir\\source\\mananger.cpp.obj -c C:\\Users\\WeiYao\\Nutstore\\1\\CppCode\\WorkerMangeSystem\\source\\mananger.cpp",
-  "file": "C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/source/mananger.cpp",
-  "output": "CMakeFiles/workermanager.dir/source/mananger.cpp.obj"
+  "command": "D:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\workermanager.dir\\source\\manager.cpp.obj -c C:\\Users\\WeiYao\\Nutstore\\1\\CppCode\\WorkerMangeSystem\\source\\manager.cpp",
+  "file": "C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/source/manager.cpp",
+  "output": "CMakeFiles/workermanager.dir/source/manager.cpp.obj"
 },
 {
   "directory": "C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/build",
