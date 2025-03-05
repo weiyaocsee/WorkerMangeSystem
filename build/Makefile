@@ -128,6 +128,78 @@ workermanager/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\workermanager.dir\build.make CMakeFiles/workermanager.dir/build
 .PHONY : workermanager/fast
 
+source/boss.obj: source/boss.cpp.obj
+.PHONY : source/boss.obj
+
+# target to build an object file
+source/boss.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\workermanager.dir\build.make CMakeFiles/workermanager.dir/source/boss.cpp.obj
+.PHONY : source/boss.cpp.obj
+
+source/boss.i: source/boss.cpp.i
+.PHONY : source/boss.i
+
+# target to preprocess a source file
+source/boss.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\workermanager.dir\build.make CMakeFiles/workermanager.dir/source/boss.cpp.i
+.PHONY : source/boss.cpp.i
+
+source/boss.s: source/boss.cpp.s
+.PHONY : source/boss.s
+
+# target to generate assembly for a file
+source/boss.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\workermanager.dir\build.make CMakeFiles/workermanager.dir/source/boss.cpp.s
+.PHONY : source/boss.cpp.s
+
+source/employee.obj: source/employee.cpp.obj
+.PHONY : source/employee.obj
+
+# target to build an object file
+source/employee.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\workermanager.dir\build.make CMakeFiles/workermanager.dir/source/employee.cpp.obj
+.PHONY : source/employee.cpp.obj
+
+source/employee.i: source/employee.cpp.i
+.PHONY : source/employee.i
+
+# target to preprocess a source file
+source/employee.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\workermanager.dir\build.make CMakeFiles/workermanager.dir/source/employee.cpp.i
+.PHONY : source/employee.cpp.i
+
+source/employee.s: source/employee.cpp.s
+.PHONY : source/employee.s
+
+# target to generate assembly for a file
+source/employee.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\workermanager.dir\build.make CMakeFiles/workermanager.dir/source/employee.cpp.s
+.PHONY : source/employee.cpp.s
+
+source/mananger.obj: source/mananger.cpp.obj
+.PHONY : source/mananger.obj
+
+# target to build an object file
+source/mananger.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\workermanager.dir\build.make CMakeFiles/workermanager.dir/source/mananger.cpp.obj
+.PHONY : source/mananger.cpp.obj
+
+source/mananger.i: source/mananger.cpp.i
+.PHONY : source/mananger.i
+
+# target to preprocess a source file
+source/mananger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\workermanager.dir\build.make CMakeFiles/workermanager.dir/source/mananger.cpp.i
+.PHONY : source/mananger.cpp.i
+
+source/mananger.s: source/mananger.cpp.s
+.PHONY : source/mananger.s
+
+# target to generate assembly for a file
+source/mananger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\workermanager.dir\build.make CMakeFiles/workermanager.dir/source/mananger.cpp.s
+.PHONY : source/mananger.cpp.s
+
 source/system.obj: source/system.cpp.obj
 .PHONY : source/system.obj
 
@@ -185,6 +257,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... workermanager
+	@echo ... source/boss.obj
+	@echo ... source/boss.i
+	@echo ... source/boss.s
+	@echo ... source/employee.obj
+	@echo ... source/employee.i
+	@echo ... source/employee.s
+	@echo ... source/mananger.obj
+	@echo ... source/mananger.i
+	@echo ... source/mananger.s
 	@echo ... source/system.obj
 	@echo ... source/system.i
 	@echo ... source/system.s

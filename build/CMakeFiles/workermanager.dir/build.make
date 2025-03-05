@@ -71,10 +71,52 @@ include CMakeFiles/workermanager.dir/flags.make
 CMakeFiles/workermanager.dir/codegen:
 .PHONY : CMakeFiles/workermanager.dir/codegen
 
+CMakeFiles/workermanager.dir/source/boss.cpp.obj: CMakeFiles/workermanager.dir/flags.make
+CMakeFiles/workermanager.dir/source/boss.cpp.obj: C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/source/boss.cpp
+CMakeFiles/workermanager.dir/source/boss.cpp.obj: CMakeFiles/workermanager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/workermanager.dir/source/boss.cpp.obj"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/workermanager.dir/source/boss.cpp.obj -MF CMakeFiles\workermanager.dir\source\boss.cpp.obj.d -o CMakeFiles\workermanager.dir\source\boss.cpp.obj -c C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\boss.cpp
+
+CMakeFiles/workermanager.dir/source/boss.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/workermanager.dir/source/boss.cpp.i"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\boss.cpp > CMakeFiles\workermanager.dir\source\boss.cpp.i
+
+CMakeFiles/workermanager.dir/source/boss.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/workermanager.dir/source/boss.cpp.s"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\boss.cpp -o CMakeFiles\workermanager.dir\source\boss.cpp.s
+
+CMakeFiles/workermanager.dir/source/employee.cpp.obj: CMakeFiles/workermanager.dir/flags.make
+CMakeFiles/workermanager.dir/source/employee.cpp.obj: C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/source/employee.cpp
+CMakeFiles/workermanager.dir/source/employee.cpp.obj: CMakeFiles/workermanager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/workermanager.dir/source/employee.cpp.obj"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/workermanager.dir/source/employee.cpp.obj -MF CMakeFiles\workermanager.dir\source\employee.cpp.obj.d -o CMakeFiles\workermanager.dir\source\employee.cpp.obj -c C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\employee.cpp
+
+CMakeFiles/workermanager.dir/source/employee.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/workermanager.dir/source/employee.cpp.i"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\employee.cpp > CMakeFiles\workermanager.dir\source\employee.cpp.i
+
+CMakeFiles/workermanager.dir/source/employee.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/workermanager.dir/source/employee.cpp.s"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\employee.cpp -o CMakeFiles\workermanager.dir\source\employee.cpp.s
+
+CMakeFiles/workermanager.dir/source/mananger.cpp.obj: CMakeFiles/workermanager.dir/flags.make
+CMakeFiles/workermanager.dir/source/mananger.cpp.obj: C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/source/mananger.cpp
+CMakeFiles/workermanager.dir/source/mananger.cpp.obj: CMakeFiles/workermanager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/workermanager.dir/source/mananger.cpp.obj"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/workermanager.dir/source/mananger.cpp.obj -MF CMakeFiles\workermanager.dir\source\mananger.cpp.obj.d -o CMakeFiles\workermanager.dir\source\mananger.cpp.obj -c C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\mananger.cpp
+
+CMakeFiles/workermanager.dir/source/mananger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/workermanager.dir/source/mananger.cpp.i"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\mananger.cpp > CMakeFiles\workermanager.dir\source\mananger.cpp.i
+
+CMakeFiles/workermanager.dir/source/mananger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/workermanager.dir/source/mananger.cpp.s"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\mananger.cpp -o CMakeFiles\workermanager.dir\source\mananger.cpp.s
+
 CMakeFiles/workermanager.dir/source/system.cpp.obj: CMakeFiles/workermanager.dir/flags.make
 CMakeFiles/workermanager.dir/source/system.cpp.obj: C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/source/system.cpp
 CMakeFiles/workermanager.dir/source/system.cpp.obj: CMakeFiles/workermanager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/workermanager.dir/source/system.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/workermanager.dir/source/system.cpp.obj"
 	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/workermanager.dir/source/system.cpp.obj -MF CMakeFiles\workermanager.dir\source\system.cpp.obj.d -o CMakeFiles\workermanager.dir\source\system.cpp.obj -c C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\system.cpp
 
 CMakeFiles/workermanager.dir/source/system.cpp.i: cmake_force
@@ -88,7 +130,7 @@ CMakeFiles/workermanager.dir/source/system.cpp.s: cmake_force
 CMakeFiles/workermanager.dir/source/workerManager.cpp.obj: CMakeFiles/workermanager.dir/flags.make
 CMakeFiles/workermanager.dir/source/workerManager.cpp.obj: C:/Users/WeiYao/Nutstore/1/CppCode/WorkerMangeSystem/source/workerManager.cpp
 CMakeFiles/workermanager.dir/source/workerManager.cpp.obj: CMakeFiles/workermanager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/workermanager.dir/source/workerManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/workermanager.dir/source/workerManager.cpp.obj"
 	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/workermanager.dir/source/workerManager.cpp.obj -MF CMakeFiles\workermanager.dir\source\workerManager.cpp.obj.d -o CMakeFiles\workermanager.dir\source\workerManager.cpp.obj -c C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\workerManager.cpp
 
 CMakeFiles/workermanager.dir/source/workerManager.cpp.i: cmake_force
@@ -101,19 +143,25 @@ CMakeFiles/workermanager.dir/source/workerManager.cpp.s: cmake_force
 
 # Object files for target workermanager
 workermanager_OBJECTS = \
+"CMakeFiles/workermanager.dir/source/boss.cpp.obj" \
+"CMakeFiles/workermanager.dir/source/employee.cpp.obj" \
+"CMakeFiles/workermanager.dir/source/mananger.cpp.obj" \
 "CMakeFiles/workermanager.dir/source/system.cpp.obj" \
 "CMakeFiles/workermanager.dir/source/workerManager.cpp.obj"
 
 # External object files for target workermanager
 workermanager_EXTERNAL_OBJECTS =
 
+workermanager.exe: CMakeFiles/workermanager.dir/source/boss.cpp.obj
+workermanager.exe: CMakeFiles/workermanager.dir/source/employee.cpp.obj
+workermanager.exe: CMakeFiles/workermanager.dir/source/mananger.cpp.obj
 workermanager.exe: CMakeFiles/workermanager.dir/source/system.cpp.obj
 workermanager.exe: CMakeFiles/workermanager.dir/source/workerManager.cpp.obj
 workermanager.exe: CMakeFiles/workermanager.dir/build.make
 workermanager.exe: CMakeFiles/workermanager.dir/linkLibs.rsp
 workermanager.exe: CMakeFiles/workermanager.dir/objects1.rsp
 workermanager.exe: CMakeFiles/workermanager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable workermanager.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable workermanager.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\workermanager.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

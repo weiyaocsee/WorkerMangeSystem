@@ -1,14 +1,26 @@
 #include <iostream>
 #include "workerManager.h"
 #include "employee.h"
+#include "manager.h"
+#include "boss.h"
 #include "worker.h"
 
 int main()
 {
     WorkerManager wm;
+
     Worker * worker = NULL;
     worker = new Employee(1, "张三", 1);
     worker->showInfo();
+    delete worker;
+
+    worker = new Manager(1, "张四", 1);
+    worker->showInfo();
+    delete worker;
+
+    worker = new Boss(1, "张五", 1);
+    worker->showInfo();
+    delete worker;
 
 
     int choice = 0;

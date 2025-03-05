@@ -118,4 +118,6 @@ CMakeFiles/workermanager.dir/source/system.cpp.obj: \
  D:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
  C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\workerManager.h \
  C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\employee.h \
- C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\worker.h
+ C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\worker.h \
+ C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\manager.h \
+ C:\Users\WeiYao\Nutstore\1\CppCode\WorkerMangeSystem\source\boss.h

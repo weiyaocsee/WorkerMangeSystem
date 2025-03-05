@@ -11,6 +11,6 @@ public:
     virtual string getDeptName() = 0;
 
     int m_ID;
-    string m_name;
+    string m_Name;
     int m_DeptID;
 };

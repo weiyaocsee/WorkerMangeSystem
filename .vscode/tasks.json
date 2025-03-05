@@ -30,4 +30,22 @@
     "options": {
         "cwd": "${workspaceFolder}/build"     // 表示执行上述操作时的工作目录
     },
+    
+
+                "label": "cmake-configure",
+                "type": "shell",
+                "command": "powershell.exe",
+                "args": [
+                    "-NoExit",
+                    "-Encoding",
+                    "UTF8",
+                    "cmake -S . -B build"
+                ],
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                }
+            
+        
+    
 }

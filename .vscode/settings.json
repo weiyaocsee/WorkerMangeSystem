@@ -3,6 +3,15 @@
         "iostream": "cpp"
     },
 
-    "cmake.generator":"MinGW Makefiles"
+    "cmake.generator":"MinGW Makefiles",
+
+        "terminal.integrated.env.linux": {
+            "LANG": "en_US.UTF-8"
+        },
+        "terminal.integrated.env.osx": {
+            "LANG": "en_US.UTF-8"
+        },
+        "terminal.integrated.shellArgs.windows": ["-NoExit", "-Encoding", "UTF8"]
+
 }
 
