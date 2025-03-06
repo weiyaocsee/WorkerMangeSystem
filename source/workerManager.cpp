@@ -360,3 +360,60 @@ void WorkerManager::Modify_Emp()
     system("pause");
     system("cls");
 }
+
+void WorkerManager::Find_Emp()
+{
+    cout << "请输入查找方式：" << endl;
+    cout << "1.按职工编号查找" << endl;
+    cout << "2.按姓名查找" << endl;
+
+    int select;
+    cin >> select;
+
+
+    if(select == 1)
+    {
+        int id;
+        cout << "请输入查找的用户编号：" << endl;
+        cin >> id;
+        int ret = this->m_isExist(id);
+        if(ret == -1)
+        {
+            cout << "该用户不存在！" << endl;
+        }
+        else
+        {
+            cout << "查找成功，该用户信息如下：" << endl;
+            this->m_EmpArray[ret]->showInfo();
+        }
+
+    }
+    else if(select == 2)
+    {
+        string name;
+        cout << "请输入查找的用户姓名：" << endl;
+        cin >> name;
+
+        bool find_Flag = false;
+        for(int i = 0; i < this->m_EmpNum; i++)
+        {
+            if(name == this->m_EmpArray[i]->m_Name)
+            {
+                cout << "查找成功，该用户信息如下：" << endl;
+                find_Flag = true;
+                this->m_EmpArray[i]->showInfo();
+            
+            }
+        }
+        if(!find_Flag)
+        {
+            cout << "查找失败！" << endl;
+        }
+
+    }
+    else
+        cout << "输入有误！" << endl;
+
+    system("pause");
+    system("cls");
+}

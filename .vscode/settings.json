@@ -2,7 +2,8 @@
     "files.associations": {
         "iostream": "cpp",
         "*.tcc": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "ostream": "cpp"
     },
 
     "cmake.generator":"MinGW Makefiles",

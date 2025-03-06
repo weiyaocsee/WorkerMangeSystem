@@ -41,6 +41,8 @@ public:
     int m_isExist(int id);
 
     void Modify_Emp();
+
+    void Find_Emp();
 };
 
 
