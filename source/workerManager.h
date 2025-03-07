@@ -43,6 +43,10 @@ public:
     void Modify_Emp();
 
     void Find_Emp();
+
+    void Sort_Emp();
+
+    void Clean_File();
 };
 
 

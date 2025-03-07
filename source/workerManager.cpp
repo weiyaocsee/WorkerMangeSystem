@@ -417,3 +417,97 @@ void WorkerManager::Find_Emp()
     system("pause");
     system("cls");
 }
+
+void WorkerManager::Sort_Emp()
+{
+    if (this->m_isFileEmpty)
+    {
+    cout << "文件不存在或记录为空！" << endl;
+    system("pause");
+    system("cls");
+    }
+    else
+    {
+        cout << "请选择排序方式： " << endl;
+        cout << "1、按职工号进行升序" << endl;
+        cout << "2、按职工号进行降序" << endl;
+        int Sort_Sel = 0;
+        cin >> Sort_Sel;
+
+
+
+        if(Sort_Sel == 1)
+        {
+            for(int i = 0; i < this->m_EmpNum; i++)
+            {
+                int Min = i;
+                for(int j = i + 1; j < this->m_EmpNum; j++)
+                {
+                    if(this->m_EmpArray[j]->m_ID < this->m_EmpArray[Min]->m_ID)
+                    {
+                        Min = j;
+                        Worker * temp = this->m_EmpArray[i];
+                        this->m_EmpArray[i] = this->m_EmpArray[j];
+                        this->m_EmpArray[j] = temp;
+                    }
+                }
+            }
+        }
+        else
+        {
+            for(int i = 0; i < this->m_EmpNum; i++)
+            {
+                int Max = i;
+                for(int j = i + 1; j < this->m_EmpNum; j++)
+                {
+                    if(this->m_EmpArray[j]->m_ID > this->m_EmpArray[Max]->m_ID)
+                    {
+                        Max = j;
+                        Worker * temp = this->m_EmpArray[i];
+                        this->m_EmpArray[i] = this->m_EmpArray[j];
+                        this->m_EmpArray[j] = temp;
+                    }
+                }
+            }
+        }
+        this->save();
+        this->show_Emp();
+        system("pause");
+        system("cls");
+    }
+
+
+}
+
+void WorkerManager::Clean_File()
+{
+    cout << "确认清空？" << endl;
+    cout << "1、确认" << endl;
+    cout << "2、返回" << endl;
+
+    int Cle_Sel = 0;
+    cin >> Cle_Sel;
+
+    if(Cle_Sel == 1)
+    {
+        ofstream ofs(FILENAME, ios::trunc);
+        ofs.close();
+
+        if(this->m_EmpArray != NULL)
+        {
+            for(int i = 0; i < this->m_EmpNum; i++)
+            {
+                delete this->m_EmpArray[i];
+            }
+        }
+        this->m_EmpNum = 0;
+        delete[] this->m_EmpArray;
+        this->m_EmpArray = NULL;
+        this->m_isFileEmpty = true;
+        cout << "清空成功！" << endl;
+    }
+    
+    system("pause");
+    system("cls");
+
+}
